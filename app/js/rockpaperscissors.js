@@ -81,10 +81,10 @@ function playToFive() {
         if(tempWinner==="player"){
             playerWins++;
         }
-        if(tempWinner==="computer"){
+        else if(tempWinner==="computer"){
             computerWins++;
         }
-        if(tempWinner==="tie") {
+        else {
             console.log("Player and Computer tied.");
         }
         console.log("The score is currently Player: " + playerWins + " to Computer: " + computerWins + "\n");
